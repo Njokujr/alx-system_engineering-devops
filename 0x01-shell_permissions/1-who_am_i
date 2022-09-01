@@ -1,2 +1,2 @@
-#!/b/etc/in/bash
-cat
+#!/bin/bash
+whoami
