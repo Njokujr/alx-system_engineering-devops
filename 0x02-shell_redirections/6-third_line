@@ -1,2 +1,2 @@
 #!/bin/bash
-head -3 iacta.txt | tail +3 
+echo head -3 iacta.txt | tail +3 
