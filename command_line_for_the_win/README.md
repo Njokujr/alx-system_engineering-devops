@@ -17,10 +17,13 @@ The Advancement of each question is indicated by;
 ![](https://github.com/Njokujr/alx-system_engineering-devops/blob/afdf55139780c3f53638ac22921b816d3d0a83a0/Progress_bar.png)
 
 0. Complete the first 9 tasks.
-	File: 0-first_9_tasks.jpg,0-first_9_tasks.png
+
+	*File: 0-first_9_tasks.jpg, 0-first_9_tasks.png
 
 1. Complete the 9 next tasks, getting to 18 total.
-	File: 1-next_9_tasks.jpg,1-next_9_tasks.png
+
+	*File: 1-next_9_tasks.jpg, 1-next_9_tasks.png
 
 2. Complete the 9 next tasks, getting to 27 total.
-	File: 2-next_9_tasks.jpg,2-next_9_tasks.png
+
+	*File: 2-next_9_tasks.jpg, 2-next_9_tasks.png
