@@ -1,6 +1,6 @@
 # COMMAND LINE FOR THE WIN
 
-![CMD_CHALLENGE](C:\Users\DIDI\Desktop\alx-system_engineering-devops\CMD_challenge-pic.png)
+![CMD_CHALLENGE](CMD_challenge-pic.png)
 # BACKGROUND CONTEXT
 CMD CHALLENGE is a pretty cool game challenging you on Bash skills. Everything is done via the command line and the questions are becoming increasingly complicated. It's a good training to improve your command line skills!
 
