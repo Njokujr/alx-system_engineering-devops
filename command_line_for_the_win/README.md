@@ -13,6 +13,8 @@ Create a screenshot, showing that you completed the required levels
 Push this screenshot with the right name to GitHub, in either the PNG or JPEG format.
 
 # TASKS
+The Advancement of each question is indicated by;
+![Insects/Animals](Screenshot (31).png)
 0. Complete the first 9 tasks.
 	File: 0-first_9_tasks.jpg,0-first_9_tasks.png
 
