@@ -14,7 +14,7 @@ Push this screenshot with the right name to GitHub, in either the PNG or JPEG fo
 
 # TASKS
 The Advancement of each question is indicated by;
-![]()
+![](https://github.com/Njokujr/alx-system_engineering-devops/blob/afdf55139780c3f53638ac22921b816d3d0a83a0/Progress_bar.png)
 0. Complete the first 9 tasks.
 	File: 0-first_9_tasks.jpg,0-first_9_tasks.png
 
