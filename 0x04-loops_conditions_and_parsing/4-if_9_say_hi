@@ -11,8 +11,4 @@ do
         echo "HI"
     fi
     ((i++))
-<<<<<<< HEAD
 done
-=======
-done
->>>>>>> ffaea677c5d1ead933947b47b441fc7ac03430b7
