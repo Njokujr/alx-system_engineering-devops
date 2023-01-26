@@ -5,6 +5,7 @@
 # Displays "Best School" for the other iterations
 
 i=1
+<<<<<<< HEAD
 
 while [ $i -le 10 ]
 do
@@ -18,4 +19,15 @@ do
         echo "Best School"
     fi
     ((i++))
+=======
+while ((i <= 10)); do
+	if ((i == 4)); then
+		echo "bad luck"
+	elif ((i == 8)); then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	((i+=1))
+>>>>>>> ffaea677c5d1ead933947b47b441fc7ac03430b7
 done
