@@ -94,5 +94,5 @@ Requirements:
     Your script should output: [SENDER],[RECEIVER],[FLAGS]
     The sender phone number or name (including country code if present)
     The receiver phone number or name (including country code if present)
-    The flags that were used
-    [Log file](../../../Downloads/text_messages.log)
+    The flags that were used:
+[Log file](../../../Downloads/text_messages.log)
