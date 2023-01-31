@@ -30,4 +30,52 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 # TASK__
 **MANDARTORY_TASK**
 0. Simply matching School
-![Task.0](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/ec65557f0da1fbfbff6659413885e4d4822f5b1d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230131T202115Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b999fe1461de50c3a7b1b2eadd35eb2ffa4a888f49111ade82a4c6f3fbaa879d)
+Requirements:
+
+    The regular expression must match School
+    Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method.
+
+1. Repetition Token #0
+Requirements:
+
+    Find the regular expression that will match the above cases
+    Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method.
+
+2. Repetition Token #1
+Requirements:
+
+    Find the regular expression that will match the above cases
+    Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method.
+
+3. Repetition Token #2
+Requirements:
+
+    Find the regular expression that will match the above cases
+    Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method.
+
+4. Repetition Token #3
+Requirements:
+
+    Find the regular expression that will match the above cases
+    Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+    Your regex should not contain square brackets.
+
+5. Not quite HBTN yet
+Requirements:
+
+    The regular expression must be exactly matching a string that starts with h ends with n and can have any single character in between
+    Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method.
+
+6. Call me maybe
+This task is brought to you by a professional advisor Neha Jain, Senior Software Engineer at LinkedIn.
+
+    Requirement:
+
+    The regular expression must match a 10 digit phone number.
+
+7. OMG WHY ARE YOU SHOUTING?
+    ![task_7!](https://intranet.alxswe.com/images/contents/sysadmin/projects/78/shouting.jpg)
+
+Requirement:
+
+    The regular expression must be only matching: capital letters.
