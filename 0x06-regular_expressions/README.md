@@ -26,3 +26,8 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
     All your Bash script files must be executable
     The first line of all your Bash scripts should be exactly #!/usr/bin/env ruby
     All your regex must be built for the Oniguruma library
+
+# TASK__
+**MANDARTORY_TASK**
+0. Simply matching School
+![Task.0](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/ec65557f0da1fbfbff6659413885e4d4822f5b1d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230131T202115Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b999fe1461de50c3a7b1b2eadd35eb2ffa4a888f49111ade82a4c6f3fbaa879d)
