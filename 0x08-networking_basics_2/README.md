@@ -35,7 +35,7 @@ Requirements:
 1. Show attached IPs
 Write a Bash script that displays all active IPv4 IPs on the machine it’s executed on.
 Example:
-        sylvain@ubuntu$ ./1-show_attached_IPs | cat -e
-        10.0.2.15$
-        127.0.0.1$
-        sylvain@ubuntu$
+    sylvain@ubuntu$ ./1-show_attached_IPs | cat -e
+    10.0.2.15$
+    127.0.0.1$
+    sylvain@ubuntu$
