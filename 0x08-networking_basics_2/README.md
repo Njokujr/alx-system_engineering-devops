@@ -24,6 +24,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 # TASKS
 
 __Mandatory_Tasks__
+
 0. Change your home IP
 Write a Bash script that configures an Ubuntu server with the below requirements.
 
@@ -34,7 +35,9 @@ Requirements:
 
 1. Show attached IPs
 Write a Bash script that displays all active IPv4 IPs on the machine it’s executed on.
+
 Example:
+
     sylvain@ubuntu$ ./1-show_attached_IPs | cat -e
     10.0.2.15$
     127.0.0.1$
