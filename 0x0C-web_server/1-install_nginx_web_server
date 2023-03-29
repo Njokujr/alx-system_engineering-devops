@@ -1,12 +1,20 @@
 #!/usr/bin/env bash
 # This script installs nginx on ubuntu server
 
+sudo apt-get update
 
-sudo apt update
-sudo apt install nginx -y
-sudo sed -i 's/listen\s*80;/listen 80 default_server;/g' /etc/nginx/sites-available/default
-sudo kill -s HUP $(cat /var/run/nginx.pid)
-sudo bash -c 'echo "<html><body><h1>Hello World!</h1></body></html>" > /var/www/html/index.html'
+sudo apt-get install nginx -y
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
 
-curl http://localhost
+    root /var/www/html;
+    index index.html;
 
+    location / {
+        return 200 "Hello World!\n";
+    }
+}
+EOF
+
+sudo service nginx restart
