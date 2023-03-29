@@ -5,7 +5,7 @@
 sudo apt update
 sudo apt install nginx -y
 sudo sed -i 's/listen\s*80;/listen 80 default_server;/g' /etc/nginx/sites-available/default
-sudo kill -s HUP $(cat /var/run/nginx.pid)
+sudo kill -s HUP "$(cat /var/run/nginx.pid)"
 sudo bash -c 'echo "<html><body><h1>Hello World!</h1></body></html>" > /var/www/html/index.html'
 
 curl http://localhost
