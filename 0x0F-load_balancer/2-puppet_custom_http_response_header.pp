@@ -1,18 +1,17 @@
-class { 'nginx':
+# Installs Nginx and custom HTTP response headers
+exec { '/usr/bin/env apt-get -y update' : }
+-> package { 'nginx':
   ensure => installed,
 }
-
-file { '/etc/nginx/conf.d/custom_headers.conf':
-  ensure => file,
-  owner  => 'root',
-  group  => 'root',
-  mode   => '0644',
-  content => 'add_header X-Served-By $hostname;',
-  notify => Service['nginx'],
+-> file { '/var/www/html/index.html' :
+  content => 'Holberton School!',
 }
-
-service { 'nginx':
+-> file_line { 'add header' :
+  ensure => present,
+  path   => '/etc/nginx/sites-available/default',
+  line   => "\tadd_header X-Served-By ${hostname};",
+  after  => 'server_name _;',
+}
+-> service { 'nginx':
   ensure => running,
-  enable => true,
 }
-
